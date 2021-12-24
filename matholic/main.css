@@ -1,0 +1,50 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  color: #000;
+}
+.top_main {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  height: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.top_main_menu {
+  background-color: green;
+}
+.top_main_menu > img > a {
+  height: 50px;
+}
+
+.top_main_login {
+}
+
+.top_main_logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+.top_main_logo > img {
+  height: 50px;
+}
+
+.top_main_constomer_center {
+  background-color: blue;
+}
+.top_main_constomer_center > img {
+  height: 50px;
+}
+
+.mid_banner {
+  background-image: url("image/intro.png");
+  height: 800px;
+  margin-top: -20px;
+}
+
+.mid_notice {
+}
